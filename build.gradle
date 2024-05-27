@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.jacob'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "sonatype-oss-snapshots1"
+        url = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+    }
+    maven {
+        url "https://repo.papermc.io/repository/maven-public/"
+    }
+}
+
+dependencies {
+    compileOnly("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT")
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+}

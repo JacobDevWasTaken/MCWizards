@@ -1,0 +1,11 @@
+name: MCWizards
+version: '${version}'
+main: me.jacob.mcwizards.MCWizards
+api-version: '1.20'
+commands:
+  bindr:
+    description: Binds R to the selected combination
+    usage: /bindr <combination>
+  bindl:
+    description: Binds L to the selected combination
+    usage: /bindl <combination>
