@@ -1,5 +1,10 @@
-A stupid minecraft magic plugin
+A stupid Minecraft plugin that adds magic wands to the game.
 
-# Instalation
+### WARNING: BAD CODE
+This plugin is really horribly written.
 
-I'm too lazy to write this
+# Installation
+Clone the repo and open it in IntelliJ or something.
+
+# Building
+Run ``./gradlew build``(on linux/mac) or ``./gradlew.bat build``(on windows).
